@@ -267,7 +267,11 @@ canvas {
         }
 
         .indicador > h3{
-            font-size: 3em;
+            font-size: 1.2em;
+        }
+
+        .contenedor div p {
+            font-size: 2em;
         }
 
 }
