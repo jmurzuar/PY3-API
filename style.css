@@ -85,20 +85,20 @@ canvas {
     /* Centra el contenedor */
 }
 
-.indicador > h3{
+.indicador > h3, .graph-item > h3{
     background-color: rgb(32, 1, 90);
     color: #fff;
     border-radius: 10px 10px 0px 0px;
     text-align: center;
 }
 
-.graph-item > h3 {
+/* .graph-item > h3 {
     background-color: rgb(32, 1, 90);
     color: #fff;
     border-radius: 10px 10px 0px 0px;
     text-align: center;
 
-}
+} */
 
 .grupo1{
     margin: 10px;
@@ -250,10 +250,6 @@ canvas {
         font-size: 20px;
     }
     
-    .title{
-    font-size: 1em;
-        background-color: #d8bb18;
-    }
 }
 
 @media screen and (max-width: 480px) {
@@ -265,9 +261,13 @@ canvas {
         font-size: 20px;
     }
 
-    .title{
+    .title, .title2, .title3{
         font-size: 1em;
-            background-color: #d8bb18;
+            
+        }
+
+        .indicador > h3{
+            font-size: 3em;
         }
 
 }
