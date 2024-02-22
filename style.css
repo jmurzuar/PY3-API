@@ -258,4 +258,9 @@ canvas {
         padding: 5px;
         font-size: 20px;
     }
+
+    .fecha_indicadores{
+        font-size: 1em;
+    }
+
 }
