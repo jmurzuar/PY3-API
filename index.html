@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mercado de valores</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+
+<body>
+
+    <header>
+        <h1 class="título_principal">Dashboard con API</h1>
+      </header>
+
+      <span id="liveclock1" style="position:absolute;right:2%;top:0; color: beige;" align="right"></span>
+
+      <!-- <div class="container_weather">
+        <h2 id="ubicacion"></h2>
+        <img id="icono" src="" alt="" height="50" width="50">
+        <h1 id="temperatura-valor"></h1>
+        <h3 id="temperatura-descripcion"></h3>
+        <h4 id="viento-velocidad"></h4>
+    </div> -->
+
+<fieldset class="grupo1">
+        <legend><h3 id="fecha_indicadores" class="title"></h3></legend>
+    
+    <div class="contenedor">
+        <div class="indicador">
+            <h3>Valor UF</h3>
+            <p id="UF"></p>
+            <canvas id="myChart_uf"></canvas>
+        </div>
+
+        <div class="indicador">
+            <h3>Valor Dolar</h3>
+            <p id="Dolar"></p>
+            <canvas id="myChart_dolar"></canvas>
+        </div>
+
+        <div class="indicador">
+            <h3>Valor IPC</h3>
+            <p id="IPC"></p>
+            <canvas id="myChart_ipc"></canvas>
+        </div>
+
+        <div class="indicador">
+            <h3>Valor EURO</h3>
+            <p id="EURO"></p>
+            <canvas id="myChart_euro"></canvas>
+        </div>
+
+      
+    </div>
+
+</fieldset>
+
+
+<fieldset class="grupo2">
+    <legend><h3 id="mon_elec" class="title2">&nbsp;&nbsp;&nbsp;MONEDAS ELECTRÓNICAS&nbsp;&nbsp;&nbsp;</h3></legend>
+
+    
+    <div class="graph1">
+        <div class="graph-item">
+            <h3 id="BTC" ></h3>
+            <canvas id="myChart"></canvas>
+        </div>
+        <div class="graph-item">
+            <h3 id="BTC2"></h3>
+            <canvas id="myChart2"></canvas>
+        </div>
+        <div class="graph-item">
+            <h3 id="BTC3"></h3>
+            <canvas id="miGrafico"></canvas>
+        </div>
+    </div>
+
+</fieldset>
+
+
+<fieldset class="grupo3">
+    <legend><h3 class="title3">&nbsp;&nbsp;&nbsp;EL TIEMPO - CIUDADES DE CHILE&nbsp;&nbsp;&nbsp;</h3></legend>
+        <br><div id="cardContainer" class="cardContainer"></div><br>
+
+    </fieldset>
+
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+    <script src="/script.js" type="module"></script>
+    
+    
+    <footer>
+        <h1 class="txt-small">Proyecto 3 DASHBOARD CON API - DWFS C11 UDD © 2024. Todos los derechos reservados.</h1>
+      </footer>
+</body>
+
+</html>

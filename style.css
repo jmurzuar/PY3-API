@@ -1,0 +1,261 @@
+/* fuente importada de Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap');
+
+
+/* Se reinician los espacios que se agregan por defecto, quedan en 0 */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 15px;
+    text-align: left;
+    font-size: 15px;
+    height: 11%;
+}
+
+
+
+footer {
+    background-color: #d8bb18;
+    color: #fff;
+    padding: 2px;
+    text-align: center;
+}
+
+.txt-small {
+    font-size: 1em;
+    text-decoration: none;
+}
+
+html,
+body {
+    height: 100%;
+    margin: 0;
+    background-color: #c55757;
+}
+
+/* 
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+div {
+    flex: 1;
+    background-color: rgb(255, 255, 255);
+} */
+
+canvas {
+    background-color: rgb(0, 0, 0);
+    /* margin-top: 100px;
+    width: 200px;
+    height: 100px;
+    display: block; */
+}
+
+.graph1 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+}
+
+.graph-item {
+    flex-basis: calc(33.33% - 20px); /* El 20px es para tener en cuenta los márgenes */
+    margin-bottom: 20px; /* Espacio entre los elementos */
+    text-align: center; /* Alinear el texto en el centro */
+}
+
+
+.contenedor {
+    display: flex;
+    justify-content: space-between;
+    /* Ajusta la distribución del espacio entre los elementos */
+    width: 80%;
+    /* Ancho del contenedor */
+    height: auto;
+    margin: auto;
+
+    /* Centra el contenedor */
+}
+
+.indicador > h3{
+    background-color: rgb(32, 1, 90);
+    color: #fff;
+    border-radius: 10px 10px 0px 0px;
+    text-align: center;
+}
+
+.graph-item > h3 {
+    background-color: rgb(32, 1, 90);
+    color: #fff;
+    border-radius: 10px 10px 0px 0px;
+    text-align: center;
+
+}
+
+.grupo1{
+    margin: 10px;
+    background-color: #913030;
+    border-radius: 10px;
+}
+.title {
+    background-color: rgb(32, 1, 90);
+    color: #fff;
+    border-radius: 10px;
+}
+
+.grupo2{
+    margin: 10px;
+    background-color: #913030;
+    border-radius: 10px;
+}
+
+.title2 {
+    background-color: rgb(32, 1, 90);
+    color: #fff;
+    border-radius: 10px;
+}
+
+.grupo3{
+    margin: 10px;
+    background-color: #913030;
+    border-radius: 10px;
+}
+
+.title3 {
+    background-color: rgb(32, 1, 90);
+    color: #fff;
+    border-radius: 10px;
+}
+
+.contenedor div {
+    border: 1px solid #913030;
+    border-radius: 10px;
+    /* Borde para visualizar las tarjetas */
+    padding: 10px;
+    /* Espaciado interno */
+    box-sizing: border-box;
+    /* Considera el borde y el relleno en el tamaño total */
+    width: 20%;
+    /* Ancho de cada tarjeta */
+}
+
+.contenedor div p {
+    font-size: 40px;
+    background-color: rgb(89, 89, 124);
+    text-align: right;
+    padding: 0px;
+    color: aliceblue;
+    /* Espaciado interno */
+}
+
+.container_weather{
+    /* text-align: center; */
+    align-items: right;
+    align-self:center;
+    
+    
+    background-color: aqua;
+}
+
+.contenedor {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.contenedor > div {
+    flex: 0 1 calc(50% - 20px); /* Ajustar el tamaño de cada div para que ocupe el 50% del contenedor con un espacio entre ellos */
+    margin-bottom: 20px;
+}
+
+
+.cardContainer {
+    display: flex;
+    flex-wrap: wrap;
+    flex-grow: 1;
+    margin: 10px;
+    background-color: aquamarine;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+
+}
+
+.card {
+    border: 1px solid #913030;
+    padding: 10px;
+    margin: 10px;
+    width: 200px;
+    display: inline-block;
+    border-radius: 10px;
+    /* Puedes ajustar el valor según tus preferencias */
+    overflow: hidden;
+    cursor: pointer;
+    position: relative;
+
+  }
+  
+  .imagen-flotante {
+    flex-shrink: 0; /* Evitar que la imagen afecte al tamaño del contenedor */
+    width: auto; /* Ancho de la imagen */
+    height: auto; /* Altura automática */
+    
+  }
+
+.card:hover {
+    box-shadow: 15px 15px 40px rgba(139, 13, 217, 0.4);
+    transform: translateY(-1%);
+    transition: 0.5s;
+}
+
+.titulo1 {
+    font-size: 1.5rem;
+    font-weight: bold;
+
+}
+
+.titulo2 {
+    font-size: 1.2rem;
+}
+
+.titulo3 {
+    font-size: 0.8rem;
+    /* position: absolute;
+    bottom: 40px; */
+
+}
+
+@media (min-width: 1000px) {
+    .contenedor > div {
+        flex: 0 1 calc(25% - 20px); /* Cuando la pantalla sea de al menos 768px de ancho, cada div ocupará el 25% del contenedor */
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .graph-item {
+        flex-basis: calc(50% - 20px); /* Para dos elementos por fila en pantallas pequeñas */
+    }
+    .título_principal{
+        padding: 5px;
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .graph-item {
+        flex-basis: calc(100% - 20px); /* Un elemento por fila en pantallas muy pequeñas */
+    }
+    .título_principal{
+        padding: 5px;
+        font-size: 20px;
+    }
+}
