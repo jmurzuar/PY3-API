@@ -99,6 +99,7 @@ const getDataNow_city = async (lon1, lat1, order) => {
 
     const temp = rates.temp;
     const ciudad = response.name;
+    let cielo_texto = response.weather[0].description;
     let cielo = response.weather[0].description;
     const viento = response.wind.speed;
     const ordenar_num = ''+`${order}`+'';
@@ -124,7 +125,7 @@ const getDataNow_city = async (lon1, lat1, order) => {
     console.log(ciudad, ' - ', temp);
 
   
-    var nuevoRegistro = { ciudad: ""+ ciudad +"", temp: ""+ temp+"", cielo: ""+ cielo +"", viento: ""+ viento +"" , ordenar: ""+ ordenar_num +"" };
+    var nuevoRegistro = { ciudad: ""+ ciudad +"", temp: ""+ temp+"", cielo_img: ""+ cielo +"", cielo_txt: ""+ cielo_texto +"", viento: ""+ viento +"" , ordenar: ""+ ordenar_num +"" };
 
     const indice = cards.findIndex(item => item.ciudad === ciudad);
     if (indice !== -1) {
@@ -601,9 +602,9 @@ function renderCards() {
     cardElement.innerHTML = `
       <p class="titulo1">${card.ciudad}</p>
       <p class="titulo2">${card.temp} °C</p>
-      <p class="titulo3">${card.cielo}</p>
+      <p class="titulo3">${card.cielo_txt}</p>
       <p class="titulo4">viento  ${card.viento} m/s</p>
-      <img src="animated/${card.cielo} ${momentoDelDia}.svg" class="imagen-flotante" alt="Imagen flotante a la derecha">
+      <img src="animated/${card.cielo_img} ${momentoDelDia}.svg" class="imagen-flotante" alt="Imagen flotante a la derecha">
       
       </div>
     `;
