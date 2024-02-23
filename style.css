@@ -174,7 +174,7 @@ canvas {
     /* Espaciado interno */
     box-sizing: border-box;
     /* Considera el borde y el relleno en el tamaño total */
-    width: 20%;
+    width: 10%;
     /* Ancho de cada tarjeta */
 }
 
@@ -331,7 +331,7 @@ canvas {
       }
 
       .titulo1 {
-        font-size: 1.3rem;
+        font-size: 1.2rem;
         font-weight: bold;
     
     }
