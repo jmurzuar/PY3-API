@@ -209,7 +209,7 @@ canvas {
     flex-wrap: wrap;
     flex-grow: 1;
     
-    /* margin: 5px; */
+    margin: 10px;
     background-color: aquamarine;
     text-align: center;
     justify-content: center;
@@ -359,5 +359,7 @@ canvas {
             color: beige;
             text-align: right;
         } */
-
+    .card{
+        width: 145px;
+    }
 }
