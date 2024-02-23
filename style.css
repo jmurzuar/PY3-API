@@ -208,6 +208,7 @@ canvas {
     display: flex;
     flex-wrap: wrap;
     flex-grow: 1;
+    
     /* margin: 5px; */
     background-color: aquamarine;
     text-align: center;
@@ -219,6 +220,8 @@ canvas {
 
 .card {
 
+ 
+  
     /* Puedes ajustar el valor según tus preferencias */
     overflow: hidden;
     cursor: pointer;
@@ -291,6 +294,8 @@ canvas {
       .menu {
         width: 100%;
       }
+
+      
     
 }
 
@@ -308,6 +313,12 @@ canvas {
         font-size: 2em; 
         
       }
+
+      .titulo1 {
+        font-size: 1.3rem;
+        font-weight: bold;
+    
+    }
 
     .title, .title2, .title3{
         font-size: 1em;
