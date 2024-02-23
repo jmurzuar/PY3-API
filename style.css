@@ -74,15 +74,20 @@ canvas {
 
 
 .contenedor {
-    display: flex;
-    justify-content: space-between;
+    
     /* Ajusta la distribución del espacio entre los elementos */
-    width: 80%;
+    
     /* Ancho del contenedor */
     height: auto;
     margin: auto;
 
     /* Centra el contenedor */
+}
+
+.contenedor {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
 }
 
 .indicador > h3, .graph-item > h3{
@@ -149,7 +154,7 @@ canvas {
 }
 
 .contenedor div p {
-    font-size: 40px;
+    font-size: 3em;
     background-color: rgb(89, 89, 124);
     text-align: right;
     padding: 0px;
@@ -166,11 +171,7 @@ canvas {
     background-color: aqua;
 }
 
-.contenedor {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-}
+
 
 .contenedor > div {
     flex: 0 1 calc(50% - 20px); /* Ajustar el tamaño de cada div para que ocupe el 50% del contenedor con un espacio entre ellos */
@@ -182,7 +183,7 @@ canvas {
     display: flex;
     flex-wrap: wrap;
     flex-grow: 1;
-    margin: 10px;
+    /* margin: 10px; */
     background-color: aquamarine;
     text-align: center;
     justify-content: center;
