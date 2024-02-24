@@ -61,8 +61,7 @@ Esta aplicación contiene operaciones CRUD, puntualmente un listado de tareas, e
 
 ![LogosPY2](https://github.com/jmurzuar/PY3-API/blob/main/img/tecno1.png)
 
-
-El objetivo principal de este proyecto fue desarrollar una aplicación CRUD, utilizando interfaz HTML, CSS y JavaScript
+El objetivo principal de este proyecto fue desarrollar una aplicación que consuma una CRUD, utilizando interfaz HTML, CSS y JavaScript
 
 Aplicando:
 
@@ -71,10 +70,17 @@ Aplicando:
 - CSS, incluyendo técnicas Flexbox, CSS Grids y Responsive Web Design.
 - Se realiza control de versiones con GIT y GITHUB
 
-![API](https://github.com/jmurzuar/PY3-API/blob/main/img/tecno1.png)
-https://openweathermap.org/api
-https://api.coincap.io
-https://mindicador.cl/api
+![API](https://github.com/jmurzuar/PY3-API/blob/main/img/api.png)
+
+Durante el desarrollo de este proyecto se han utilizado las siguientes API 
+
+- openweathermap.org/api
+- api.coincap.io
+- mindicador.cl/api
+
+Para realizar los gráficos, se utilizó la siguiente librería
+
+- Chart.js
 
 
 [volver al índice](#ÍNDICE)
