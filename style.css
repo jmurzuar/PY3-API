@@ -27,13 +27,14 @@ header {
 
 
 .logo {
-    background-color: #d8bb18;
+    /* background-color: #d8bb18; */
     font-size: 3em; 
     text-align: left;
   }
   
   .menu {
     background-color: #77756b;
+    padding: 0 20px 0 20px;
   }
 
 
@@ -279,7 +280,7 @@ canvas {
     font-size: 0.8rem;
     /* position: absolute;
     bottom: 40px; */
-
+ 
 }
 
 @media (min-width: 1000px) {
@@ -295,6 +296,7 @@ canvas {
 @media screen and (max-width: 768px) {
     .graph-item {
         flex-basis: calc(50% - 20px); /* Para dos elementos por fila en pantallas pequeñas */
+        
     }
     /* .título_principal{
         padding: 5px;

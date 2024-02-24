@@ -708,12 +708,14 @@ const getData_moneyE = async (val, graph) => {
     chart.destroy();
   }
 
+  let name= `${val}`;
+
   new Chart(ctx2, {
     type: 'line',
     data: {
       labels: dates,
       datasets: [{
-        label: `${val}`,
+        label: name.toUpperCase(),
         data: values,
         borderWidth: 1
       }]
@@ -880,7 +882,7 @@ const miGrafico = new Chart(ctx, {
   data: {
     labels: [], // Etiquetas de tiempo (opcional)
     datasets: [{
-      label: 'Datos en tiempo real',
+      label: 'Valores BITCOIN en tiempo real',
       data: [], // Valores de los datos
       backgroundColor: 'rgba(75, 192, 192, 0.2)', // Color del área bajo la línea
       borderColor: 'rgba(75, 192, 192, 1)', // Color de la línea
