@@ -1,4 +1,4 @@
-![banner](https://github.com/jmurzuar/PY2-CRUD_APP/assets/84281899/d2a1342c-b03b-4381-8214-ae5d5b0faad9)
+![banner](https://github.com/jmurzuar/PY3-API/blob/main/img/banner.png)
 
 # PROYECTO 3: Tablero de Datos ("Dashboard")
 
@@ -31,11 +31,7 @@ Estos son las características del dashboard:
 ## 2. Estructura
 
 ### Estructura general de la página
-![Esquema1](https://github.com/jmurzuar/PY2-CRUD_APP/assets/84281899/1d4ce7d7-55d2-4cb7-b143-7ae34e6cff7c)
-
-### Detalle de tarjeta
-![Tarjeta](https://github.com/jmurzuar/PY2-CRUD_APP/assets/84281899/c9e01f4d-a6a3-453d-9138-e414c16a0b49)
-
+![Esquema1](https://github.com/jmurzuar/PY3-API/blob/main/img/modelo_basico.png)
 
 Esta aplicación contiene operaciones CRUD, puntualmente un listado de tareas, en la cual se puede:
 
@@ -52,10 +48,10 @@ Esta aplicación contiene operaciones CRUD, puntualmente un listado de tareas, e
 ## 3. Pantallas
 
 ### Pantalla completa
-![Pantalla](https://github.com/jmurzuar/PY2-CRUD_APP/assets/84281899/231c4863-5329-4cd2-ac25-80b8fea6e15e)
+![Pantalla](https://github.com/jmurzuar/PY3-API/blob/main/img/pantalla1.png)
 
 ### Pantalla responsive
-![Responsive](https://github.com/jmurzuar/PY2-CRUD_APP/assets/84281899/9ab26c05-e7c6-4f05-ba25-ec278bc8c0b1)
+![Responsive](https://github.com/jmurzuar/PY3-API/blob/main/img/pantalla2.png)
 
 
 [volver al índice](#ÍNDICE)
@@ -63,7 +59,7 @@ Esta aplicación contiene operaciones CRUD, puntualmente un listado de tareas, e
 
 ## 4. Tecnologías Utilizadas
 
-![LogosPY2](https://github.com/jmurzuar/PY2-CRUD_APP/assets/84281899/5d54e0d3-1f04-4bc6-a398-39a322473b0d)
+![LogosPY2](https://github.com/jmurzuar/PY3-API/blob/main/img/tecno1.png)
 
 
 El objetivo principal de este proyecto fue desarrollar una aplicación CRUD, utilizando interfaz HTML, CSS y JavaScript
@@ -75,7 +71,7 @@ Aplicando:
 - CSS, incluyendo técnicas Flexbox, CSS Grids y Responsive Web Design.
 - Se realiza control de versiones con GIT y GITHUB
 
-
+![API](https://github.com/jmurzuar/PY3-API/blob/main/img/tecno1.png)
 https://openweathermap.org/api
 https://api.coincap.io
 https://mindicador.cl/api
