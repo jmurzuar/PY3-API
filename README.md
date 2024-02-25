@@ -16,9 +16,7 @@
 
 ## 1. Intro
 
-En este proyecto se construyó una aplicación que consume 3 API's públicas
-
-Estos son las características del dashboard:
+En este proyecto se construyó un dashboard que consume 3 API's públicas, sus principales características son:
 
 - Se usa un ambiente de desarrollo con Node.js
 - Se utiliza Chart.js para el desarrollo de gráficas
@@ -33,14 +31,13 @@ Estos son las características del dashboard:
 ### Estructura general de la página
 ![Esquema1](https://github.com/jmurzuar/PY3-API/blob/main/img/modelo_basico.png)
 
-Esta aplicación contiene operaciones CRUD, puntualmente un listado de tareas, en la cual se puede:
+Esta aplicación contiene 5 bloques, en 3 de ellos se utiliza JavaScript:
 
-- Crear tareas con el botón AGREGAR y los campos de texto especificando la tarea, descripción, fecha y estado
-- Validar que los campos contengan datos
-- Leer las tareas, ubicadas en la parte central de la aplicación.
-- Modificar la tarea, con el botón EDITAR
-- Borrar la tarea, con el botón de ELIMINAR
-
+- HEADER, Sección con el nombre del Dashboard y reloj y fecha
+- INDICADORES ECONÓMICOS CHILE, valores de principales indicadores chilenos del día, con gráfico de los últimos 12 valores históricos
+- INDICADORES MONEDAS ELECTRÓNICAS, valores de las dos principales monedas electrónicas, con el último valore reportado y gráfico de los últimos 30 días, además se incluye un gráfico con actualiación cada 10 segundos, con los últimos 10 registros de bitcoin
+- CLIMA CHILE, se muestran tarjetas con el valore actual del clima de 6 cuidades de Chile, incluye información de cuidad, temperatura, descripción del clima, velocidad del viento e ícono animado de la descripción del clima 
+- FOOTER, información adicional de la página
 
 [volver al índice](#ÍNDICE)
 ****
@@ -61,22 +58,25 @@ Esta aplicación contiene operaciones CRUD, puntualmente un listado de tareas, e
 
 ![LogosPY2](https://github.com/jmurzuar/PY3-API/blob/main/img/tecno1.png)
 
-El objetivo principal de este proyecto fue desarrollar una aplicación que consuma una CRUD, utilizando interfaz HTML, CSS y JavaScript
+El objetivo principal de este proyecto fue desarrollar una aplicación que consuma una API, utilizando interfaz HTML, CSS y JavaScript
 
 Aplicando:
 
-- Prototipado simple que muestra una aplicación CRUD con almacenamiento en window.localStorage.
+- Prototipado simple que muestra un DASHBOARD con información externa y dinámica
 - Etiquetas estándar HTML5.
-- CSS, incluyendo técnicas Flexbox, CSS Grids y Responsive Web Design.
+- CSS, incluyendo técnicas Flexbox y Responsive Web Design.
+- Se utiliza Fetch API y JSON para consumir y disponibilizar la información de las API's
 - Se realiza control de versiones con GIT y GITHUB
+- Se publica solución en netlify
+
 
 ![API](https://github.com/jmurzuar/PY3-API/blob/main/img/api.png)
 
-Durante el desarrollo de este proyecto se han utilizado las siguientes API 
+Durante el desarrollo de este proyecto se han utilizado las siguientes API's 
 
-- openweathermap.org/api
-- api.coincap.io
-- mindicador.cl/api
+- openweathermap.org/api, API pública con suscripción gratuita para seguimiento del clima en distintas ciudades del mundo
+- api.coincap.io, API pública sin suscripción con información de las momedas electrónicas
+- mindicador.cl/api, API pública Chilena sin suscripción que muestra información de los indicadores económicos Chilenos
 
 Para realizar los gráficos, se utilizó la siguiente librería
 
