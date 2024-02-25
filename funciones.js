@@ -47,11 +47,11 @@ export const time_string = (timestamp) => {
     const fecha = new Date(timestamp);
     const horaLocal = fecha.toLocaleTimeString('es-ES', { hour: '2-digit', minute: '2-digit', hour12: false });
     return horaLocal;
-  };
-  
+};
 
 
-  export function showClocks() {
+
+export function showClocks() {
     const meses = ["Enero", "Febrero", "Marzo", "Abril", "Mayo", "Junio", "Julio", "Agosto", "Septiembre", "Octubre", "Noviembre", "Diciembre"];
     const diasSemana = ["Dom.", "Lun.", "Mar.", "Mié.", "Jue.", "Vie.", "Sáb."];
 
@@ -87,20 +87,20 @@ export const time_string = (timestamp) => {
 export function determinarDiaNoche() {
     const horaActual = new Date().getHours();
     let esDia;
-  
+
     // Definir intervalos de tiempo para el día y la noche (pueden ajustarse según tus necesidades)
     const horaAmanecer = 6; // Ejemplo: 6:00 AM
     const horaAtardecer = 21; // Ejemplo: 9:00 PM
-  
+
     // Determinar si es de día o de noche
     if (horaActual >= horaAmanecer && horaActual < horaAtardecer) {
-      esDia = true;
+        esDia = true;
     } else {
-      esDia = false;
+        esDia = false;
     }
-  
+
     return esDia ? 'dia' : 'noche';
-  }
-  
+}
+
 
 

@@ -10,32 +10,26 @@
 }
 
 header {
-    /* background-color: #333;
-    color: #fff;
-    padding: 15px;
-    text-align: left;
-    font-size: 15px;
-    height: 11%; */
     display: flex;
-    
-  justify-content: space-between;
-  align-items: center;
-  background-color: #333;
-  padding: 10px 20px;
-  color: white;
+
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    padding: 10px 20px;
+    color: white;
 }
 
 
 .logo {
-    /* background-color: #d8bb18; */
-    font-size: 3em; 
+
+    font-size: 3em;
     text-align: left;
-  }
-  
-  .menu {
+}
+
+.menu {
     background-color: #77756b;
     padding: 0 20px 0 20px;
-  }
+}
 
 
 footer {
@@ -57,31 +51,19 @@ body {
     background-color: #c55757;
 }
 
-/* 
-body {
-    display: flex;
-    flex-direction: column;
-}
 
-div {
-    flex: 1;
-    background-color: rgb(255, 255, 255);
-} */
 
-#liveclock1{
+#liveclock1 {
     /* position:absolute; */
-    right:2%;
-    top:0;
+    right: 2%;
+    top: 0;
     color: beige;
     text-align: right;
 }
 
 canvas {
     background-color: rgb(0, 0, 0);
-    /* margin-top: 100px;
-    width: 200px;
-    height: 100px;
-    display: block; */
+
 }
 
 .graph1 {
@@ -93,21 +75,16 @@ canvas {
 }
 
 .graph-item {
-    flex-basis: calc(33.33% - 20px); /* El 20px es para tener en cuenta los márgenes */
-    margin-bottom: 20px; /* Espacio entre los elementos */
-    text-align: center; /* Alinear el texto en el centro */
+    flex-basis: calc(33.33% - 20px);
+    margin-bottom: 20px;
+    text-align: center;
 }
 
 
 .contenedor {
-    
-    /* Ajusta la distribución del espacio entre los elementos */
-    
-    /* Ancho del contenedor */
+
     height: auto;
     margin: auto;
-
-    /* Centra el contenedor */
 }
 
 .contenedor {
@@ -116,26 +93,22 @@ canvas {
     justify-content: space-around;
 }
 
-.indicador > h3, .graph-item > h3{
+.indicador>h3,
+.graph-item>h3 {
     background-color: rgb(32, 1, 90);
     color: #fff;
     border-radius: 10px 10px 0px 0px;
     text-align: center;
 }
 
-/* .graph-item > h3 {
-    background-color: rgb(32, 1, 90);
-    color: #fff;
-    border-radius: 10px 10px 0px 0px;
-    text-align: center;
 
-} */
 
-.grupo1{
+.grupo1 {
     margin: 10px;
     background-color: #913030;
     border-radius: 10px;
 }
+
 .title {
     background-color: rgb(32, 1, 90);
     color: #fff;
@@ -143,7 +116,7 @@ canvas {
 
 }
 
-.grupo2{
+.grupo2 {
     margin: 10px;
     background-color: #913030;
     border-radius: 10px;
@@ -155,7 +128,7 @@ canvas {
     border-radius: 10px;
 }
 
-.grupo3{
+.grupo3 {
     margin: 10px;
     background-color: #913030;
     border-radius: 10px;
@@ -170,13 +143,10 @@ canvas {
 .contenedor div {
     border: 1px solid #913030;
     border-radius: 10px;
-    /* Borde para visualizar las tarjetas */
     padding: 10px;
-    /* Espaciado interno */
     box-sizing: border-box;
-    /* Considera el borde y el relleno en el tamaño total */
     width: 10%;
-    /* Ancho de cada tarjeta */
+
 }
 
 .contenedor div p {
@@ -185,22 +155,20 @@ canvas {
     text-align: right;
     padding: 0px;
     color: aliceblue;
-    /* Espaciado interno */
+
 }
 
-.container_weather{
-    /* text-align: center; */
+.container_weather {
     align-items: right;
-    align-self:center;
-    
-    
+    align-self: center;
     background-color: aqua;
 }
 
 
 
-.contenedor > div {
-    flex: 0 1 calc(50% - 20px); /* Ajustar el tamaño de cada div para que ocupe el 50% del contenedor con un espacio entre ellos */
+.contenedor>div {
+    flex: 0 1 calc(50% - 20px);
+    /* Ajustar el tamaño de cada div para que ocupe el 50% del contenedor con un espacio entre ellos */
     margin-bottom: 20px;
 }
 
@@ -209,21 +177,17 @@ canvas {
     display: flex;
     flex-wrap: wrap;
     flex-grow: 1;
-    
+
     margin: 10px;
     background-color: aquamarine;
     text-align: center;
     justify-content: center;
-    
+
     border-radius: 10px;
 
 }
 
 .card {
-
- 
-  
-    /* Puedes ajustar el valor según tus preferencias */
     overflow: hidden;
     cursor: pointer;
     position: relative;
@@ -235,14 +199,17 @@ canvas {
     display: inline-block;
     border-radius: 10px;
 
-  }
-  
-  .imagen-flotante {
-    flex-shrink: 0; /* Evitar que la imagen afecte al tamaño del contenedor */
-    width: auto; /* Ancho de la imagen */
-    height: auto; /* Altura automática */
-    
-  }
+}
+
+.imagen-flotante {
+    flex-shrink: 0;
+    /* Evitar que la imagen afecte al tamaño del contenedor */
+    width: auto;
+    /* Ancho de la imagen */
+    height: auto;
+    /* Altura automática */
+
+}
 
 .card:hover {
     box-shadow: 15px 15px 40px rgba(139, 13, 217, 0.4);
@@ -257,111 +224,94 @@ canvas {
 }
 
 .titulo2 {
-    
+
     display: inline;
-    
-  background-color: aquamarine; /* Color de fondo */
-  padding: 0 5px 0 5px; /* Ajuste del espacio alrededor del texto */
-  font-size: 1.2rem;
+
+    background-color: aquamarine;
+    /* Color de fondo */
+    padding: 0 5px 0 5px;
+    /* Ajuste del espacio alrededor del texto */
+    font-size: 1.2rem;
     font-weight: bold;
     background-color: #d8bb18;
     border-radius: 10px;
-    
+
 }
 
 .titulo3 {
     font-size: 0.9rem;
-    /* position: absolute;
-    bottom: 40px; */
-
 }
 
 .titulo4 {
     font-size: 0.8rem;
-    /* position: absolute;
-    bottom: 40px; */
- 
 }
 
 @media (min-width: 1000px) {
-    .contenedor > div {
-        flex: 0 1 calc(25% - 20px); /* Cuando la pantalla sea de al menos 768px de ancho, cada div ocupará el 25% del contenedor */
+    .contenedor>div {
+        flex: 0 1 calc(25% - 20px);
+        /* Cuando la pantalla sea de al menos 768px de ancho, cada div ocupará el 25% del contenedor */
     }
-
-    
 
 
 }
 
 @media screen and (max-width: 768px) {
     .graph-item {
-        flex-basis: calc(50% - 20px); /* Para dos elementos por fila en pantallas pequeñas */
-        
+        flex-basis: calc(50% - 20px);
+        /* Para dos elementos por fila en pantallas pequeñas */
+
     }
-    /* .título_principal{
-        padding: 5px;
-        font-size: 20px;
-    } */
+
 
     header {
         flex-direction: column;
-    align-items: center;
-      }
-    
-      .logo,
-      .menu {
-        width: 100%;
-      }
+        align-items: center;
+    }
 
-      
-    
+    .logo,
+    .menu {
+        width: 100%;
+    }
+
+
+
 }
 
 @media screen and (max-width: 480px) {
     .graph-item {
-        flex-basis: calc(100% - 20px); /* Un elemento por fila en pantallas muy pequeñas */
+        flex-basis: calc(100% - 20px);
+        /* Un elemento por fila en pantallas muy pequeñas */
     }
-    /* .título_principal{
-        padding: 5px;
-        font-size: 25px;
 
-    } */
 
     .logo {
-        font-size: 2em; 
-        
-      }
+        font-size: 2em;
 
-      .titulo1 {
-        font-size: 1.2rem;
-        font-weight: bold;
-    
     }
 
-    .title, .title2, .title3{
+    .titulo1 {
+        font-size: 1.2rem;
+        font-weight: bold;
+
+    }
+
+    .title,
+    .title2,
+    .title3 {
         font-size: 1em;
-            
-        }
 
-        .indicador > h3{
-            font-size: 1em;
-        }
+    }
 
-        .contenedor div p {
-            font-size: 1.8em;
-        }
+    .indicador>h3 {
+        font-size: 1em;
+    }
 
-        /* header {
-            padding: 0;
-            height: 22%;
-        } */
-        
-        /* #liveclock1{
-            top:8%;
-            color: beige;
-            text-align: right;
-        } */
-    .card{
+    .contenedor div p {
+        font-size: 1.8em;
+    }
+
+
+    .card {
         width: 145px;
     }
 }
