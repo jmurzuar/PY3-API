@@ -74,9 +74,9 @@ Aplicando:
 
 Durante el desarrollo de este proyecto se han utilizado las siguientes API's 
 
-- openweathermap.org/api, API pública con suscripción gratuita para seguimiento del clima en distintas ciudades del mundo
-- api.coincap.io, API pública sin suscripción con información de las momedas electrónicas
-- mindicador.cl/api, API pública Chilena sin suscripción que muestra información de los indicadores económicos Chilenos
+- **openweathermap.org/api**, API pública con suscripción gratuita para seguimiento del clima en distintas ciudades del mundo
+- **api.coincap.io**, API pública sin suscripción con información de las momedas electrónicas
+- **mindicador.cl/api**, API pública Chilena sin suscripción que muestra información de los indicadores económicos Chilenos
 
 Para realizar los gráficos, se utilizó la siguiente librería
 
@@ -97,9 +97,9 @@ En el desarollo de este proyecto, se cumple con:
 
 
 ### JAVASCRIPT
-- [X] Uso de fetch o axios para el consumo de datos.
+- [X] Uso de fetch para el consumo de datos.
 - [X] Modularización con import y export.
-- [X] Uso de promesas o async-await.
+- [X] Uso de promesas y async-await.
 
 ### CONTROL DE VERSIONES
 - [X] Utilizar GIT para en control de versiones.
