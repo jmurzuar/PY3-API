@@ -454,11 +454,11 @@ function actualizarCada_110_Segundos() {
 function actualizarCada_180_Segundos() {
   setInterval(function () {
 
-    getDataNow_city(-70.6483, -33.4569, 2); // Santiago
-    getDataNow_city(-71.0838467, -34.4345789, 3); // San Vicente
-    getDataNow_city(-72.5901, -38.7399, 5); // Temuco
-    getDataNow_city(-71.5518, -33.0245, 1); // Viña del Mar
-    getDataNow_city(-73.050277777778, -36.826944444444, 4); // Concepción
+    getDataNow_city(-70.6483, -33.4569, 3); // Santiago
+    getDataNow_city(-71.0838467, -34.4345789, 4); // San Vicente
+    getDataNow_city(-72.5901, -38.7399, 6); // Temuco
+    getDataNow_city(-71.5518, -33.0245, 2); // Viña del Mar
+    getDataNow_city(-73.050277777778, -36.826944444444, 5); // Concepción
     getDataNow_city(-71.2542, -29.9078, 1); // La Serena
 
   }, 600000); // 180000 milisegundos = 180 segundos
